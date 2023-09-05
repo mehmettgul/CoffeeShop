@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             createDatabase.addCoffeeDataToCoreData()
             createDatabase.addCategoryDataToCoreData()
             createDatabase.addCreditCartDataToCoreData()
+            //createDatabase.addAddressesDataToCoreData()
             UserDefaults.standard.set(true, forKey: "isDataSeeded")
         }
         return true

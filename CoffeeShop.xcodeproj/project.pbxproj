@@ -15,6 +15,8 @@
 		DA361AD32AA09B7800AA20A5 /* CreditCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA361AD22AA09B7800AA20A5 /* CreditCardData.swift */; };
 		DA473E652A9C72BD009B0F27 /* FavoriteViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA473E642A9C72BD009B0F27 /* FavoriteViewmodel.swift */; };
 		DA473E672A9C7359009B0F27 /* CartViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA473E662A9C7359009B0F27 /* CartViewmodel.swift */; };
+		DA60B3572AA1CE7600BDEE48 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60B3562AA1CE7600BDEE48 /* BottomSheetViewController.swift */; };
+		DA60B35B2AA214B200BDEE48 /* BottomSheetViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60B35A2AA214B200BDEE48 /* BottomSheetViewmodel.swift */; };
 		DA6B0B652A8BA443005C376E /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B0B642A8BA443005C376E /* PaymentViewController.swift */; };
 		DA6B0B692A8BA904005C376E /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B0B672A8BA904005C376E /* CartCell.swift */; };
 		DA6B0B6A2A8BA904005C376E /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6B0B682A8BA904005C376E /* CartCell.xib */; };
@@ -32,6 +34,8 @@
 		DACA9C2E2A8A60F800429A10 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA9C2D2A8A60F800429A10 /* SearchViewController.swift */; };
 		DACA9C302A8A637000429A10 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA9C2F2A8A637000429A10 /* CartViewController.swift */; };
 		DACA9C322A8A696300429A10 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA9C312A8A696300429A10 /* LikesViewController.swift */; };
+		DAD23C632AA0ABB100235919 /* PaymentViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23C622AA0ABB100235919 /* PaymentViewmodel.swift */; };
+		DAD23C652AA0D42B00235919 /* AddressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23C642AA0D42B00235919 /* AddressData.swift */; };
 		DAE00FAE2A988BF2006E6571 /* SearchViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE00FAD2A988BF2006E6571 /* SearchViewmodel.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +59,8 @@
 		DA361AD22AA09B7800AA20A5 /* CreditCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardData.swift; sourceTree = "<group>"; };
 		DA473E642A9C72BD009B0F27 /* FavoriteViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewmodel.swift; sourceTree = "<group>"; };
 		DA473E662A9C7359009B0F27 /* CartViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewmodel.swift; sourceTree = "<group>"; };
+		DA60B3562AA1CE7600BDEE48 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		DA60B35A2AA214B200BDEE48 /* BottomSheetViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewmodel.swift; sourceTree = "<group>"; };
 		DA6B0B642A8BA443005C376E /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		DA6B0B672A8BA904005C376E /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 		DA6B0B682A8BA904005C376E /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 		DACA9C2D2A8A60F800429A10 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DACA9C2F2A8A637000429A10 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		DACA9C312A8A696300429A10 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		DAD23C622AA0ABB100235919 /* PaymentViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewmodel.swift; sourceTree = "<group>"; };
+		DAD23C642AA0D42B00235919 /* AddressData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressData.swift; sourceTree = "<group>"; };
 		DAE00FAD2A988BF2006E6571 /* SearchViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +106,7 @@
 				DACA9C222A8A2F6700429A10 /* CoffeeData.swift */,
 				DABD874B2A93406C00C5DBA2 /* CategoryData.swift */,
 				DA361AD22AA09B7800AA20A5 /* CreditCardData.swift */,
+				DAD23C642AA0D42B00235919 /* AddressData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -109,6 +118,8 @@
 				DAE00FAD2A988BF2006E6571 /* SearchViewmodel.swift */,
 				DA473E642A9C72BD009B0F27 /* FavoriteViewmodel.swift */,
 				DA473E662A9C7359009B0F27 /* CartViewmodel.swift */,
+				DAD23C622AA0ABB100235919 /* PaymentViewmodel.swift */,
+				DA60B35A2AA214B200BDEE48 /* BottomSheetViewmodel.swift */,
 			);
 			path = Viewmodel;
 			sourceTree = "<group>";
@@ -174,6 +185,7 @@
 				DACA9C0F2A8A2CD900429A10 /* SplashViewController.swift */,
 				DACA9C312A8A696300429A10 /* LikesViewController.swift */,
 				DA6B0B642A8BA443005C376E /* PaymentViewController.swift */,
+				DA60B3562AA1CE7600BDEE48 /* BottomSheetViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -260,10 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACA9C102A8A2CD900429A10 /* SplashViewController.swift in Sources */,
+				DA60B3572AA1CE7600BDEE48 /* BottomSheetViewController.swift in Sources */,
 				DA361AD32AA09B7800AA20A5 /* CreditCardData.swift in Sources */,
 				DACA9C322A8A696300429A10 /* LikesViewController.swift in Sources */,
 				DACA9C162A8A2CD900429A10 /* CoffeeShop.xcdatamodeld in Sources */,
 				DACA9C2E2A8A60F800429A10 /* SearchViewController.swift in Sources */,
+				DA60B35B2AA214B200BDEE48 /* BottomSheetViewmodel.swift in Sources */,
 				DA473E672A9C7359009B0F27 /* CartViewmodel.swift in Sources */,
 				DACA9C232A8A2F6700429A10 /* CoffeeData.swift in Sources */,
 				DABD874C2A93406C00C5DBA2 /* CategoryData.swift in Sources */,
@@ -274,8 +288,10 @@
 				DA27D80C2A8F4C190000F81A /* FetchViewmodel.swift in Sources */,
 				DA6B0B652A8BA443005C376E /* PaymentViewController.swift in Sources */,
 				DACA9C252A8A34B500429A10 /* CreateDatabase.swift in Sources */,
+				DAD23C632AA0ABB100235919 /* PaymentViewmodel.swift in Sources */,
 				DA473E652A9C72BD009B0F27 /* FavoriteViewmodel.swift in Sources */,
 				DACA9C2C2A8A5B2700429A10 /* HomeViewController.swift in Sources */,
+				DAD23C652AA0D42B00235919 /* AddressData.swift in Sources */,
 				DACA9C302A8A637000429A10 /* CartViewController.swift in Sources */,
 				DACA9C0E2A8A2CD900429A10 /* SceneDelegate.swift in Sources */,
 			);

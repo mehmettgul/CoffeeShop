@@ -53,12 +53,12 @@ class CreateDatabase {
     }
     
     func addCreditCartDataToCoreData() {
-        
         let creditCardData = CreditCardData().creditCards
         for creditCard in creditCardData {
             let newCreditCard = CreditCard(context: context)
             newCreditCard.creditCardId = creditCard.creditCardId
             newCreditCard.creditCardName = creditCard.creditCardName
+            newCreditCard.creditCardBalance = creditCard.creditCardBalance
             newCreditCard.firstCreditCardNumber = creditCard.firstCreditCardNumber
             newCreditCard.secondCreditCardNumber = creditCard.secondCreditCardNumber
             newCreditCard.thirdCreditCardNumber = creditCard.thirdCreditCardNumber
@@ -73,5 +73,21 @@ class CreateDatabase {
             print("Error saving credit cards: \(error)")
         }
     }
+    
+//    func addAddressesDataToCoreData() {
+//        let addresses = AddressData().addresses
+//        for address in addresses {
+//            let newAddress = Address(context: context)
+//            newAddress.addressId = address.addressId
+//            newAddress.address = address.address
+//            newAddress.addressTitle = address.addressTitle
+//        }
+//        do {
+//            try context.save()
+//            print("Addresses saved.")
+//        } catch {
+//            print("Error saving addresses: \(error)")
+//        }
+//    }
     
 }

@@ -92,4 +92,16 @@ class CartViewmodel {
         }
     }
     
+    func updateCartItemsAfterDelivery(coffees: [Coffee]) {
+        for coffee in coffees {
+            coffee.inCart = false
+        }
+        do {
+            try context.save()
+            print("Kahveler sepetten çıkarıldı.")
+        } catch {
+            print("Kahve güncelleme hatası: \(error)")
+        }
+    }
+    
 }

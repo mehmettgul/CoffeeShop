@@ -31,7 +31,12 @@ class SearchViewController: UIViewController, UICollectionViewDelegate, UICollec
         cell.coffeeImage.image = UIImage(named: "exampleCoffee")
         cell.coffeeName.text = coffee.name
         cell.coffeePrice.text = "\(coffee.price) ₺"
-        
+        cell.addButton.isHidden = true
+        for recognizer in cell.gestureRecognizers ?? [] { // like sayfasında like aksiyonu alınmasın diye kaldırma işlemi
+            if recognizer is UITapGestureRecognizer {
+                cell.removeGestureRecognizer(recognizer)
+            }
+        }
         return cell
     }
 

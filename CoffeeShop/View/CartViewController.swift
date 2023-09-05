@@ -45,7 +45,7 @@ class CartViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func reloadCollectionView() {
-        payAmountLabel.text = String(calculateTotalPayment())
+        payAmountLabel.text = "\(calculateTotalPayment()) ₺"
     }
     
     func calculateTotalPayment() -> Int {
@@ -73,6 +73,8 @@ class CartViewController: UIViewController, UICollectionViewDelegate, UICollecti
         // PaymentViewController'a geçiş:
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let paymentVC = storyboard.instantiateViewController(withIdentifier: "PaymentViewController") as? PaymentViewController {
+            paymentVC.totalPayment = calculateTotalPayment()
+            paymentVC.cartItems = cart
             paymentVC.modalPresentationStyle = .fullScreen
             self.present(paymentVC, animated: true, completion: nil)
         }

@@ -13,7 +13,6 @@ class SplashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         getStartedButton.layer.cornerRadius = 16
         
     }
